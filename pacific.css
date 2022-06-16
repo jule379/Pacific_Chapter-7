@@ -72,11 +72,11 @@ background-size: 200% 100%;
 }  
 #trailhero {  
 height: 300px;   
-background-image: url(trail,jpg);  
+background-image: url(trail.jpg);  
 background-repeat: no-repeat; 
 background-size: 200% 100%;   
 }  
-#mobile { display: inline; }
+#mobile  { display: inline; }
 #desktop { display: none; }
 section {
 padding-left: .5em; 
@@ -112,10 +112,10 @@ display: flex;
 flex-direction: row;   
 }  
 #mobile { display: none; }  
-#desktop ( display: inline; }
-#homehero, #yurthero, #trailhero {background-size: 100% 100%; }  
+#desktop { display: inline; }
+#homehero, #yurthero, #trailhero { background-size: 100% 100%; }  
 }  
-@media (min-width: 1024px) [  
+@media (min-width: 1024px) {  
 body { 
 background-image:
 linear-gradient(to bottom, #FFFFFF 20%, #90C7E3 60%, #FFFFFF 100%);
